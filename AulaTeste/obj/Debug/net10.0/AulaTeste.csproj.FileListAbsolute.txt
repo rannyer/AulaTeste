@@ -1,0 +1,14 @@
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/bin/Debug/net10.0/AulaTeste
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/bin/Debug/net10.0/AulaTeste.deps.json
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/bin/Debug/net10.0/AulaTeste.runtimeconfig.json
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/bin/Debug/net10.0/AulaTeste.dll
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/bin/Debug/net10.0/AulaTeste.pdb
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.AssemblyInfoInputs.cache
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.AssemblyInfo.cs
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.csproj.CoreCompileInputs.cache
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.dll
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/refint/AulaTeste.dll
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.pdb
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.genruntimeconfig.cache
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/ref/AulaTeste.dll

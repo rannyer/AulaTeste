@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=135dec81_002D7e64_002D4c86_002Dbf1f_002Dae4e1a91dddf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Somar_DoisPositivos_RetornaSoma" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestCalculadora.Somar_DoisPositivos_RetornaSoma&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.ContaBancariaTests.Construtor_DadosValidos_CriaContaComSaldoInicial&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.ContaBancariaTests.Construtor_TitularNuloOuVazio_LancarArgumentException&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.ContaBancariaTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.CalculadoraDescontoTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.pedido_test.PedidoServiceTestWithFake&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
