@@ -1,6 +1,6 @@
 using System.Security.AccessControl;
 using AulaTeste;
-
+using NSubstitute;
 
 namespace TesteAulaTest;
 
@@ -92,15 +92,14 @@ public class TestesUsuario
     [Fact]
     public void Cadsatrar_DadosValidos_EnviaEmailUmaVez()
     {
-        // var repo = Subtitute.For<IRepositorioDeUsuarios>();
-        // var email = Subtitute.For<IEnviadorDeEmail>();
-        // var log = Subtitute.For<ILogDeAuditoria>();
-        // repo.EmailJaExiste("mama@db.com").Returns(false);
-        //
-        // var servico = new ServicoDeCadastro(repo, email, log);
-        // servico.Cadastrar("Maria Db", "mama@db.com");
-        // email.Received(1).Enviar("mama@db.com", "Bem vindo!");
-       
+        var repo = Substitute.For<IRepositorioDeUsuarios>();
+        var email = Substitute.For<IEnviadorDeEmail>();
+        var log = Substitute.For<ILogDeAuditoria>();
+        repo.EmailJaExiste("mama@db.com").Returns(false);
+        
+        var servico = new ServicoDeCadastro(repo, email, log);
+        servico.Cadastrar("Maria Db", "mama@db.com");
+        email.Received(1).Enviar("mama@db.com", "Bem vindo!");
         
     }
     

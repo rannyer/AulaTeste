@@ -31,16 +31,34 @@ public class ServicoDeCadastro
         _log = log;
     }
 
-    public void Cadastrar(string nome, string email)
+    public Usuario Cadastrar(string nome, string email)
     {
         if (string.IsNullOrWhiteSpace(nome))
-            throw new ArgumentException("Nome é obrigatório.");
+            throw new ArgumentException("Nome é obrigatório.", nameof(nome));
 
-        if (_repo.EmailJaExiste(email))
+        if (string.IsNullOrWhiteSpace(email) || !email.Contains('@'))
+            throw new ArgumentException("E-mail inválido.", nameof(email));
+
+        var emailNormalizado = email.Trim().ToLowerInvariant();
+
+        if (_repo.EmailJaExiste(emailNormalizado))
             throw new InvalidOperationException("E-mail já cadastrado.");
 
-        _repo.Adicionar(new Usuario(nome, email));
-        _email.Enviar(email, "Bem-vindo!");
-        _log.Registrar($"Usuário {email} cadastrado");
+        var usuario = new Usuario(nome.Trim(), emailNormalizado);
+
+        _repo.Adicionar(usuario);
+        _log.Registrar($"Usuário {emailNormalizado} cadastrado");
+
+        try
+        {
+            _email.Enviar(emailNormalizado, "Bem-vindo!");
+        }
+        catch (Exception ex)
+        {
+            // O cadastro já foi feito; falha no e-mail não pode desfazer isso
+            _log.Registrar($"Falha ao enviar boas-vindas para {emailNormalizado}: {ex.Message}");
+        }
+
+        return usuario;
     }
 }

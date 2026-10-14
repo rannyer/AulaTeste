@@ -10,5 +10,11 @@
     &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestesUsuario.Cadastar_EmailJaExiste_LancaExcecao&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestesUsuario.Cadastra_Dados_Envia_EmailDeBoasVindas&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestesUsuario&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestesMocksUsuario.Cadastrar_DadosValidos_RetornaUsuarioCriado&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestesMocksUsuario.Cadastrar_DadosValidos_SalvaUsuarioNoRepositorio&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestesMocksUsuario.Cadastrar_DadosValidos_EnviaEmailDeBoasVindas&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestesMocksUsuario.Cadstar_EMailJaExiste_LancaExcecaoENaoSalvaNemEnvia&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestesMocksUsuario.Cadastrar_DadosInvalidos_NaoTocaEmNenhumaDependencia&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::FA830E2E-023B-46A1-95D3-1FD392E69F6F::net10.0::TesteAulaTest.TestesMocksUsuario.Cadastrar_FalhaNoEmail_UsuarioContinuaCadastradoEErroVaiPraLog&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

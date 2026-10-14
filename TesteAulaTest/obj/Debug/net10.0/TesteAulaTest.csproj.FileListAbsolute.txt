@@ -101,3 +101,8 @@
 /Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/obj/Debug/net10.0/TesteAulaTest.genruntimeconfig.cache
 /Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/obj/Debug/net10.0/ref/TesteAulaTest.dll
 /Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/obj/Debug/net10.0/TesteAulaTest.sourcelink.json
+/Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/bin/Debug/net10.0/Castle.Core.dll
+/Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/bin/Debug/net10.0/NSubstitute.dll
+/Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/bin/Debug/net10.0/System.Diagnostics.EventLog.dll
+/Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/bin/Debug/net10.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
+/Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/bin/Debug/net10.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
