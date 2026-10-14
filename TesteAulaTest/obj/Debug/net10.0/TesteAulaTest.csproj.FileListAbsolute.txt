@@ -100,3 +100,4 @@
 /Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/obj/Debug/net10.0/TesteAulaTest.pdb
 /Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/obj/Debug/net10.0/TesteAulaTest.genruntimeconfig.cache
 /Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/obj/Debug/net10.0/ref/TesteAulaTest.dll
+/Users/rannyer/RiderProjects/AulaTeste/TesteAulaTest/obj/Debug/net10.0/TesteAulaTest.sourcelink.json

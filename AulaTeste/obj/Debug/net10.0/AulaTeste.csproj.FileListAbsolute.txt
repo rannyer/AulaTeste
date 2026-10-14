@@ -12,3 +12,4 @@
 /Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.pdb
 /Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.genruntimeconfig.cache
 /Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/ref/AulaTeste.dll
+/Users/rannyer/RiderProjects/AulaTeste/AulaTeste/obj/Debug/net10.0/AulaTeste.sourcelink.json
